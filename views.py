@@ -1,7 +1,12 @@
-from flask import Flask, request
+from flask import Flask, request , render_template
 
 def init_app(app: Flask):
 
     @app.route("/")
     def index():
-        return "claudio codigo"
+        return render_template("index.html")
+
+
+    @app.route("/login")    
+    def login():
+        return render_template("login.html")
