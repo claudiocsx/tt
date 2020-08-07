@@ -1,5 +1,5 @@
 from flask import Flask
-import views
+from ext import views
 
 def create_app():
     
