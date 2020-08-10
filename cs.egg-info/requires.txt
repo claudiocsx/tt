@@ -1,3 +1,4 @@
+flask
 
 [dev]
 black
@@ -7,4 +8,5 @@ flask-shell-ipython
 ipdb
 ipython
 isort
+pytest-cov
 pytest-flask

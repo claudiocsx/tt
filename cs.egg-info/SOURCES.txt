@@ -7,4 +7,6 @@ cs.egg-info/SOURCES.txt
 cs.egg-info/dependency_links.txt
 cs.egg-info/requires.txt
 cs.egg-info/top_level.txt
+cs/ext/__init__.py
+cs/ext/views.py
 cs/templates/__init__.py

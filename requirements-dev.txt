@@ -6,4 +6,5 @@ ipdb
 ipython
 isort
 pytest-flask
+pytest-cov
  

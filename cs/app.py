@@ -1,11 +1,11 @@
-from flask import Flask
-from ext import views
+from flask import Flask 
+from cs.ext.site.main import bp
+
 
 def create_app():
-    
-    
     app = Flask(__name__)
-    views.init_app(app)
+    app.register_blueprint(bp)
+   
 
     return app
     
